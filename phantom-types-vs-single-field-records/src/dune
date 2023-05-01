@@ -1,0 +1,8 @@
+(executable
+ (name bench)
+ (modules bench)
+ (libraries bls12-381 core_bench core_unix.command_unix))
+
+(executable
+ (name main)
+ (modules main) (libraries bls12-381))
